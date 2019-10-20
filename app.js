@@ -11,9 +11,6 @@ var app = express();
 
 var v1 = require('./v1/v1');
 
-// initialize caver
-caver.initialize();
-
 // view engine setup
 //app.use(''cors());
 /*

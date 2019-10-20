@@ -22,7 +22,7 @@ mail.mailOptionSignup = function(_email, _text){
   return {
     from : 'klaytnsori@gmail.com',
     to : _email,
-    subject: 'Hello! Wellcome to Klaytnsori!',
+    subject: 'Hello! Wellcome to ElecDoc!',
     text : mailcontent(_text)
   };
 };
@@ -40,7 +40,7 @@ mail.mailOptionFindPw = function(_email, _text){
   return {
     from : 'klaytnsori@gmail.com',
     to : _email,
-    subject: 'Hello! Wellcome to Klaytnsori!',
+    subject: 'Hello! Wellcome to ElecDoc!',
     text : mailcontent(_text)
   };
 }
